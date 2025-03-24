@@ -23,7 +23,8 @@ classifiers = [
 ]
 dependencies = [
     "requests",
-    "protobuf~=3.18.0"
+    "protobuf~=3.18.0",
+    "paho-mqtt~=1.6.1"
 ]
 dynamic = ["version"]
 
